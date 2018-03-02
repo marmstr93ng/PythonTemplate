@@ -14,3 +14,12 @@ A template layout of a Python project
 11. ```git push -u origin master``` - Push to the github repo
 
 All git commands entered through git bash.
+
+# Using Pipenv
+1. Install Pipenv on to the PC ```pip install pipenv```
+2. Intiate Pipenv in the folder by navigating to the folder and entering ```pipenv install```
+3. Install python packages locally ```pipenv install <package name>```
+4. Update lock file ```pipenv lock```
+5. When a lock file with dependencies is included ```pipenv install``` will install these depedencies
+
+[Pipenv Tutorial](https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv)
