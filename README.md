@@ -26,5 +26,7 @@ All git commands entered through git bash.
 
 # Other Links
 [Documenting with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html)
+
 [Unit tests](https://docs.python.org/3.5/library/unittest.html)
+
 [Packages](https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/)
