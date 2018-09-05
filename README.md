@@ -55,7 +55,7 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 3. To enter the virtual enviroment ```activate```
 4. To exit the virtual enviroment ```deactivate```
 
-https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/
+[Venv Tutorial](https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/)
 
 
 # Other Links
