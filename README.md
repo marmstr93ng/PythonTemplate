@@ -36,7 +36,8 @@ All git commands entered through git bash (Right click on Repo and click "Git Ba
 ### Test SSH Connection
 ```ssh -T git@github.com```
 
-# Using Pipenv
+# Virtual Enviroments
+## ~~Using Pipenv~~
 1. Install Pipenv on to the PC ```pip install pipenv```
 2. Intiate Pipenv in the folder by navigating to the folder and entering ```pipenv install```
 3. Install python packages locally ```pipenv install <package name>```
@@ -45,9 +46,19 @@ All git commands entered through git bash (Right click on Repo and click "Git Ba
 
 [Pipenv Tutorial](https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv)
 
+## Venv
+Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-stash](https://github.com/marmstr93ng/GitStash) to automatically update the requirements.txt file.
+
+1. ```venv venv```
+2. ```cd venv/Scripts```
+2. Add wheel ```pip install --upgrade pip setuptools wheel```
+3. To enter the virtual enviroment ```activate```
+4. To exit the virtual enviroment ```deactivate```
+
+https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/
+
+
 # Other Links
-[Documenting with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html)
-
-[Unit tests](https://docs.python.org/3.5/library/unittest.html)
-
-[Packages](https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/)
+1. [Documenting with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html)
+2. [Unit tests](https://docs.python.org/3.5/library/unittest.html)
+3. [Packages](https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/)
