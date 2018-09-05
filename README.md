@@ -49,7 +49,7 @@ All git commands entered through git bash (Right click on Repo and click "Git Ba
 ## Venv
 Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-stash](https://github.com/marmstr93ng/GitStash) to automatically update the requirements.txt file.
 
-1. ```venv venv```
+1. ```python -m venv venv```
 2. ```cd venv/Scripts```
 2. Add wheel ```pip install --upgrade pip setuptools wheel```
 3. To enter the virtual enviroment ```activate```
