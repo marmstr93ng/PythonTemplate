@@ -16,11 +16,16 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 
 1. ```python -m venv venv```
 2. ```cd venv/Scripts```
-2. Add wheel ```pip install --upgrade pip setuptools wheel```
+2. Add wheel ```python -m pip install --upgrade pip setuptools wheel```
 3. To enter the virtual enviroment ```activate```
 4. To exit the virtual enviroment ```deactivate```
 
 [Venv Tutorial](https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/)
+
+## Visual Studio Code Tips
+
+- Use a custom virtual enviroment by selecting it with the command ```python: Select Interpreter```
+- Open intergrated terminal ```ctrl+'``` or View > terminal
 
 ## Setup Git:
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
