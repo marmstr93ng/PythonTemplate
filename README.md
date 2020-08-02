@@ -9,10 +9,14 @@ A template layout of a Python project
 6. ```git commit -m "first commit"``` - Commit all added files
 7. ```git push -u origin master``` - Push to the github repo
 
+OR
+
+1. Run [git-python-env](https://github.com/marmstr93ng/Shortcut.git)
+
 All git commands entered through git bash (Right click on Repo and click "Git Bash Here").
 
 ## Virtual Enviroments (Venv)
-Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [GitShip](https://github.com/marmstr93ng/Shortcut.git) to automatically update the requirements.txt file.
+Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-ship](https://github.com/marmstr93ng/Shortcut.git) to automatically update the requirements.txt file.
 
 1. ```python -m venv venv```
 2. ```cd venv/Scripts```
@@ -26,6 +30,7 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 
 - Use a custom virtual enviroment by selecting it with the command ```python: Select Interpreter```
 - Open intergrated terminal ```ctrl+'``` or View > terminal
+[Enviroments](https://code.visualstudio.com/docs/python/environments)
 
 ## Setup Git:
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
