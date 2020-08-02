@@ -12,7 +12,7 @@ A template layout of a Python project
 All git commands entered through git bash (Right click on Repo and click "Git Bash Here").
 
 ## Virtual Enviroments (Venv)
-Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [GitRequire](https://github.com/marmstr93ng/GitRequire.git) to automatically update the requirements.txt file.
+Pipenv has been depricated in all my projects and I have reverted back to Venv which is part of the standard library (I try and keep to the standard lib as much as possible). To overcome the shortfall of having to manually keep the requirements up-to-date, use [GitShip](https://github.com/marmstr93ng/Shortcut.git) to automatically update the requirements.txt file.
 
 1. ```python -m venv venv```
 2. ```cd venv/Scripts```
