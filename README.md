@@ -35,17 +35,31 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 
 [Venv Tutorial](https://chriswarrick.com/blog/2018/09/04/python-virtual-environments/)
 
-## Requirements.txt
-- Generate a python requirements file which contains all the python libraries used in the project
-```pip freeze > requirements.txt```
+## Pip
+pip is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes
 
-- Install all python libraries specified in requirements file
-```pip install -r requirements.txt```
+```pip install <package>```  - installs package to current enviroment
+```pip uninstall <package>``` - uninstalls package from current enviroment
+
+## Requirements.txt
+A file which contains all the python packages used in the project
+
+- Capture the python requirements ```pip freeze > requirements.txt```
+- Install all python packages specified in requirements file ```pip install -r requirements.txt``` 
 
 [How to include a Github repo in the requirements file](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
 
-If a new library has been included in the Virtual environment the requirements.txt will need to be updated. Remembering to do this manually could be problematic. Instead the requirements file should be updated and added to the commit if there is a change! To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-ship) to automatically update the requirements.txt file.
+Use [Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-frigid)/[Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-warm) when installing and unistalling python packages to keep the requirements.txt up-to-date
 
+## Git
+
+1. ```git add .``` - Adds all files
+2. ```git commit -m "commit message"``` - Commit all added files
+3. ```git push -u origin master``` - Push to the github repo
+
+***or***
+
+Run [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-ship) - updates requirement.txt and then commmits
 
 ## Visual Studio Code Tips
 
@@ -61,7 +75,7 @@ If a new library has been included in the Virtual environment the requirements.t
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. ```git config --global user.name "<name>"``` - Change the user's name
 3. ```git config --global user.email "<email>"``` - Change the user's email address
-4. Setup SSH if necessary (see below)
+4. Setup [SSH](https://github.com/marmstr93ng/PythonTemplate#ssh) if necessary 
 5. Add [Shortcut Git CMDs](https://github.com/marmstr93ng/Shortcut)
 6. [Create a new repository](https://github.com/marmstr93ng/PythonTemplate#pythontemplate) ***or*** [Clone an existing repository](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-setup-python-clone)
 
