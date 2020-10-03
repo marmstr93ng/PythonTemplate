@@ -44,8 +44,8 @@ pip is the package installer for Python. You can use pip to install packages fro
 ## Requirements.txt
 A file which contains all the python packages used in the project
 
-- Capture the python requirements ```pip freeze > requirements.txt```
-- Install all python packages specified in requirements file ```pip install -r requirements.txt``` 
+- ```pip freeze > requirements.txt``` - Capture the python requirements 
+- ```pip install -r requirements.txt```  - Install all python packages specified in requirements file 
 
 [How to include a Github repo in the requirements file](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
 
