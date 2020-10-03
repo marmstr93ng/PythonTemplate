@@ -38,8 +38,8 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 ## Pip
 pip is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes
 
-```pip install <package>```  - installs package to current enviroment
-```pip uninstall <package>``` - uninstalls package from current enviroment
+- ```pip install <package>```  - installs package to current enviroment
+- ```pip uninstall <package>``` - uninstalls package from current enviroment
 
 ## Requirements.txt
 A file which contains all the python packages used in the project
@@ -49,7 +49,7 @@ A file which contains all the python packages used in the project
 
 [How to include a Github repo in the requirements file](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
 
-Use [Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-frigid)/[Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-warm) when installing and unistalling python packages to keep the requirements.txt up-to-date
+Use [Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-frigid)/[Git Warm](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-warm) when installing and unistalling python packages to keep the requirements.txt up-to-date
 
 ## Git
 
@@ -59,7 +59,7 @@ Use [Git Frigid](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#c
 
 ***or***
 
-Run [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-ship) - updates requirement.txt and then commmits
+Run [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-ship) - updates requirement.txt and then follows commit sequence
 
 ## Visual Studio Code Tips
 
@@ -72,12 +72,13 @@ Run [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd
 # PC Setup Instructions
 
 1. [Install Python](https://www.python.org/)
-1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. ```git config --global user.name "<name>"``` - Change the user's name
-3. ```git config --global user.email "<email>"``` - Change the user's email address
-4. Setup [SSH](https://github.com/marmstr93ng/PythonTemplate#ssh) if necessary 
+2. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+3. ```git config --global user.name "<name>"``` - Change the user's name
+4. ```git config --global user.email "<email>"``` - Change the user's email address
 5. Add [Shortcut Git CMDs](https://github.com/marmstr93ng/Shortcut)
 6. [Create a new repository](https://github.com/marmstr93ng/PythonTemplate#pythontemplate) ***or*** [Clone an existing repository](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-setup-python-clone)
+
+NOTE: Setup [SSH](https://github.com/marmstr93ng/PythonTemplate#ssh) may be neccessary
 
 ## SSH
 ### Setup SSH Key
