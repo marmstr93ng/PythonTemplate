@@ -3,7 +3,7 @@ A template layout of a Python project
 
 1. Create repository in github - No additional files
 2. Navigate to desire local repository location
-3. Run [git-python-env](https://github.com/marmstr93ng/Shortcut.git)
+3. Run [git-python-env](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-python-env)
 
 ***OR***
 
@@ -44,7 +44,7 @@ Pipenv has been depricated in all my projects and I have reverted back to Venv w
 
 [How to include a Github repo in the requirements file](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
 
-If a new library has been included in the Virtual environment the requirements.txt will need to be updated. Remembering to do this manually could be problematic. Instead the requirements file should be updated and added to the commit if there is a change! To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-ship](https://github.com/marmstr93ng/Shortcut.git) to automatically update the requirements.txt file.
+If a new library has been included in the Virtual environment the requirements.txt will need to be updated. Remembering to do this manually could be problematic. Instead the requirements file should be updated and added to the commit if there is a change! To overcome the shortfall of having to manually keep the requirements up-to-date, use [git-ship](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-ship) to automatically update the requirements.txt file.
 
 
 ## Visual Studio Code Tips
@@ -53,12 +53,19 @@ If a new library has been included in the Virtual environment the requirements.t
 - Open intergrated terminal ```ctrl+'``` or View > terminal
 [Enviroments](https://code.visualstudio.com/docs/python/environments)
 
-## Setup Git:
+---
+
+# PC Setup Instructions
+
+1. [Install Python](https://www.python.org/)
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. ```git config --global user.name "<name>"``` - Change the user's name
 3. ```git config --global user.email "<email>"``` - Change the user's email address
 4. Setup SSH if necessary (see below)
+5. Add [Shortcut Git CMDs](https://github.com/marmstr93ng/Shortcut)
+6. [Create a new repository](https://github.com/marmstr93ng/PythonTemplate#pythontemplate) ***or*** [Clone an existing repository](https://github.com/marmstr93ng/Shortcut/blob/master/README.md#cmd--git-setup-python-clone)
 
+## SSH
 ### Setup SSH Key
 ```Generate SSH Keyssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
 - On "Enter a file in which to save the key," press Enter. This accepts the default file location.
@@ -81,4 +88,4 @@ If a new library has been included in the Virtual environment the requirements.t
 # Other Links
 1. [Documenting with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html)
 2. [Unit tests](https://docs.python.org/3.5/library/unittest.html)
-3. [Packages](https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/
+3. [Packages](https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/)
