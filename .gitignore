@@ -3,6 +3,9 @@
 # Python Compiler files
 *.pyc
 
+# Python Package Info
+*.egg-info/
+
 # Virtualenv
 venv/
 
@@ -11,3 +14,4 @@ venv/
 
 # Tools
 .vscode/
+.tox/
